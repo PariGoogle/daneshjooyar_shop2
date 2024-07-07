@@ -22,5 +22,9 @@ from shop.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('index/', views.index, name="index")
+    path('index/', views.index, name="index"),
+    path('about/', views.about, name="about"),
+    path('computer/', views.computer, name="computer"),
+    path('laptop/', views.laptop, name="laptop"),
+    path('contact/', views.contact, name="contact"),
 ]
